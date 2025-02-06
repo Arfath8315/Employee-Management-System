@@ -40,10 +40,10 @@ INSERT INTO Departments (DepartmentName) VALUES
 
 -- Insert Employees
 INSERT INTO Employees (FirstName, LastName, Gender, DOB, DepartmentID, Salary, JoiningDate) VALUES
-('John', 'Doe', 'Male', '1990-05-10', 1, 50000.00, '2020-03-15'),
-('Alice', 'Smith', 'Female', '1992-07-22', 2, 60000.00, '2019-08-10'),
-('Bob', 'Johnson', 'Male', '1988-12-02', 3, 75000.00, '2018-06-25'),
-('Emily', 'Davis', 'Female', '1995-09-15', 4, 55000.00, '2021-01-05');
+('Arfath', 'Khan', 'Male', '1990-05-10', 1, 50000.00, '2020-03-15'),
+('Shibra', 'Banu', 'Female', '1992-07-22', 2, 60000.00, '2019-08-10'),
+('Moin', 'Shaik', 'Male', '1988-12-02', 3, 75000.00, '2018-06-25'),
+('Sana', 'Khan', 'Female', '1995-09-15', 4, 55000.00, '2021-01-05');
 
 -- Insert Attendance Records
 INSERT INTO Attendance (EmpID, Date, Status) VALUES
