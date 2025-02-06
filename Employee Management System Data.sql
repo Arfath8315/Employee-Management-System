@@ -1,3 +1,4 @@
+-- schema.sql: Defines the database schema for Employee Management System
 -- create database
 CREATE DATABASE EmployeeDB;
 USE EmployeeDB;
@@ -31,6 +32,7 @@ CREATE TABLE Attendance (
 );
 select * from attendance;
 
+-- data.sql: Inserts sample data into the tables
 -- Insert Departments
 INSERT INTO Departments (DepartmentName) VALUES
 ('HR'),
@@ -52,6 +54,7 @@ INSERT INTO Attendance (EmpID, Date, Status) VALUES
 (3, '2024-02-01', 'Present'),
 (4, '2024-02-01', 'Leave');
 
+-- queries.sql: Sample queries for data analysis
 -- Retrieve all from Employees
 select * from employees;
 
